@@ -3,7 +3,6 @@ project(c_internel_skill_trainning)
 
 set(CMAKE_CXX_STANDARD 20)
 
-#add_executable(c_internel_skill_trainning main.cpp)
 add_executable(c_internel_skill_trainning var.cpp)
 
 # 遍历项目根目录下所有的 .cpp 文件
