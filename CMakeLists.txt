@@ -3,7 +3,7 @@ project(c_internel_skill_trainning)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c_internel_skill_trainning var.cpp)
+add_executable(c_internel_skill_trainning src/var.cpp)
 
 # 遍历项目根目录下所有的 .cpp 文件
 file (GLOB_RECURSE files *.cpp)
@@ -13,4 +13,4 @@ foreach (file ${files})
     message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
