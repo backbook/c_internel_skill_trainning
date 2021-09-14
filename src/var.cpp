@@ -66,6 +66,7 @@ int main(){
     cout << "ch = " << ch << endl;
     cout << "ch = " << (int)ch << endl;
     cout << "sizeof(ch) = " << sizeof(ch) << endl;
+    cout << "size of test\n";
 
 
 
