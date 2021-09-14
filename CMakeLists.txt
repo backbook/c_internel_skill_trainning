@@ -3,7 +3,11 @@ project(c_internel_skill_trainning)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c_internel_skill_trainning src/var.cpp)
+#add_executable(c_internel_skill_trainning src/var.cpp)
+
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 # 遍历项目根目录下所有的 .cpp 文件
 file (GLOB_RECURSE files *.cpp)
