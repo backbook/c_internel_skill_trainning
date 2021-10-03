@@ -5,7 +5,7 @@ message(status "Project Directory: ${PROJECT_SOURCE_DIR}")
 set(CMAKE_CXX_STANDARD 20)
 
 #add_executable(c_internel_skill_trainning src/DefineTest.cpp)
-add_executable(c_internel_skill_trainning src/MetC++.cpp)
+add_executable(c_internel_skill_trainning src/PointTest.cpp)
 
 
 
